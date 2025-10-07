@@ -34,15 +34,6 @@
 
 ---
 
-## 🖼️ Sections Overview
-
-- 🏠 Home — Introduction + hero animation
-- 👨‍💻 About — Personal details and skills
-- 💼 Projects — Featured works (MERN, Tailwind, TypeScript)
-- ✉️ Contact — Direct email and social links
-
----
-
 ## 🧑‍💻 Author
 
 - 👤 Name: Ahamed Atheef
