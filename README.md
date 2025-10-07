@@ -34,6 +34,24 @@
 
 ---
 
+## 🖼️ Sections Overview
+
+- 🏠 Home — Introduction + hero animation
+- 👨‍💻 About — Personal details and skills
+- 💼 Projects — Featured works (MERN, Tailwind, TypeScript)
+- ✉️ Contact — Direct email and social links
+
+---
+
+## 🧑‍💻 Author
+
+- 👤 Name: Ahamed Atheef
+- 💼 Role: Web Developer & Photo Editor
+- 🌐 Portfolio: https://ahamedatheef.netlify.app
+- 📧 Email: ahamedatheef072@gmail.com
+- 🐙 GitHub: https://github.com/AhamedAtheef
+- 💬 LinkedIn: https://www.linkedin.com/in/ahamed-atheef-50b117385
+
 ## 🧱 Tech Stack
 
 | Layer | Technology |
@@ -46,9 +64,6 @@
 | Auth | JWT (Cookie-based) |
 
 ---
-
-## 🗂️ Folder Structure
-
 
 
 ---
