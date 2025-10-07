@@ -1,16 +1,61 @@
-# React + Vite
+<h1 align="center">💬 MERN Chat App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A modern real-time chat application built with the <b>MERN Stack</b> — 
+  <b>MongoDB, Express, React, Node.js</b> — featuring 
+  <b>Socket.IO</b> for instant messaging, 
+  <b>Cloudinary</b> for image uploads, 
+  and secure <b>JWT Authentication with Cookies</b>.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloudinary-0061FF?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 **JWT Authentication using Cookies**
+  - Secure login and logout (no localStorage)
+  - HTTP-only cookie protection against XSS
+- 💬 **Real-time Chat** (Socket.IO)
+- 👥 **Private & Group Conversations**
+- 📸 **Cloudinary Image Uploads**
+- 🎨 **Responsive UI** with Tailwind CSS + React Icons
+- ⚙️ **Express REST API + MongoDB**
+- 🚀 **Ready for Deployment (Frontend + Backend)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React.js, Tailwind CSS, React Icons, Axios |
+| Backend | Node.js, Express.js |
+| Database | MongoDB, Mongoose |
+| Real-time | Socket.IO |
+| File Uploads | Cloudinary |
+| Auth | JWT (Cookie-based) |
+
+---
+
+## 🗂️ Folder Structure
+
+
+
+---
+
+## ⚙️ Setup & Installation
+
+### 🔧 1. Clone the Repository
+```bash
+git clone https://github.com/AhamedAtheef/chatApp_frontend.git
+cd chatApp_frontend
