@@ -1,7 +1,7 @@
 import axios from "axios";
 
-/* create axios instance  */
+/* ✅ Create axios instance for backend API */
 export const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_BACKEND_URL,
-    withCredentials: true,
-})
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api`,
+  withCredentials: true, // 🔥 required for cookies (JWT)
+});

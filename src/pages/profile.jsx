@@ -16,10 +16,11 @@ const Profile = () => {
               console.log(base64Image);
               setSelectedimage(base64Image);
               await Updateprofile(base64Image);
+              
           }
     }
     return (
-        <div className="min-h-screen pt-20 bg-[#1c232a]">
+        <div className="min-h-screen pt-20 bg-primary ">
             <div className="max-w-2xl mx-auto px-4 py-8">
                 <div className="bg-[#02050a98] rounded-xl p-6 sm:p-8 space-y-8">
                     {/* Header */}

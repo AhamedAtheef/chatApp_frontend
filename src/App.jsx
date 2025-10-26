@@ -5,11 +5,12 @@ import HomePage from './pages/home'
 import SignupPage from './pages/signup'
 import Login from './pages/login'
 import Profile from './pages/profile'
-import SettingPage from './pages/setting'
+import ThemeSettings from "./pages/theme_setting";
 import { useAuthStore } from './store/useAuthStore'
 import { useEffect } from 'react'
 import Loading from './components/ui/loading'
 import { Toaster } from 'react-hot-toast'
+
 
 export default function App() {
   const { authUser, isCheckingAuth, checkAuth } = useAuthStore();
@@ -25,7 +26,7 @@ export default function App() {
        
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/10"></div>
 
         {/* Content */}
         <div className="relative z-10 flex items-center justify-center min-h-screen">
@@ -36,14 +37,14 @@ export default function App() {
     );
 
   return (
-    <div >
+    <div className='bg-accent-foreground'>
       <Navbar />
       <Routes>
         <Route path='/' element={authUser ? <HomePage /> : <Navigate to="/login" />} />
         <Route path='/signup' element={!authUser ? <SignupPage /> : <Navigate to="/" />} />
         <Route path='/login' element={!authUser ? <Login /> : <Navigate to="/" />} />
         <Route path='/profile' element={authUser ? <Profile /> : <Navigate to="/login" />} />
-        <Route path='/settings' element={<SettingPage />} />
+        <Route path='/settings-theme' element={<ThemeSettings/>} />
       </Routes>
       <Toaster
         position="top-center"

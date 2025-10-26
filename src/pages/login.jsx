@@ -27,7 +27,7 @@ const Login = () => {
         <div className="min-h-screen grid lg:grid-cols-2">
             {/* Left Section */}
             <div className="flex flex-col justify-center items-center p-6 sm:p-12 bg-[#0a0a0a] min-h-screen">
-                <div className="w-full max-w-md space-y-8">
+                <div className="w-full max-w-md space-y-8 bg-primary px-[5%] py-[5%] md:py-[4%] rounded-2xl">
                     {/* Header */}
                     <div className="text-center mb-8">
                         <div className="flex flex-col items-center gap-3 group">
