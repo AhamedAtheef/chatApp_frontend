@@ -65,6 +65,21 @@ export const useAuthStore = create((set, get) => ({
             toast.error(error.response?.data?.message || "Logout failed");
         }
     },
+    Updateprofile: async (base64Image) => {
+        set({ isUpdatingProfile: true });
+        try {
+            const res = await axiosInstance.put("/auth/update-profile", {
+                pic: base64Image,
+            });
+            set({ authUser: res.data.user, isUpdatingProfile: false });
+            toast.success(res.data.message);
+        } catch (error) {
+            console.error("Update profile failed:", error.response?.data || error.message);
+            toast.error(error.response?.data?.message || "Update profile failed");
+        } finally {
+            set({ isUpdatingProfile: false });
+        }
+    },
 
     ConnectSocket: () => {
         // 1. Get the current authenticated user and socket instance from the state.
