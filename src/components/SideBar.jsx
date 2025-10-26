@@ -57,7 +57,7 @@ export const SideBar = () => {
           <h2>Loading...</h2>
         </div>
       ) : (
-        <div className="flex-1 flex flex-col p-4 2xl:pb-[20%] space-y-3 text-sm overflow-y-auto">
+        <div className="flex-1 flex flex-col p-4 pb-[30%]  space-y-3 text-sm overflow-y-auto">
           {/* User List */}
           <div className="flex flex-col space-y-2">
             {users.length > 0 ? (
